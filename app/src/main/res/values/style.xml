@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="textHeading">
+        <item name="android:textSize">20sp</item>
+
+    </style>
+
+    <style name="textMedium">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="textSmall">
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>

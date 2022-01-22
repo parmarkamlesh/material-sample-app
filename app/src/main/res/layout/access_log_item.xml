@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="10"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:minHeight="50dp">
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/timeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="10020-20292"/>
+
+    <ImageView
+        android:id="@+id/appLogoIv"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/appNameTv"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="SYSTEM APP"/>
+
+   <ImageView
+       android:id="@+id/accessTypeDot"
+       android:layout_weight="1"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:src="@android:drawable/ic_dialog_email"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/timeDurationTv"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="00:00:05"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
